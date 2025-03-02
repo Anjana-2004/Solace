@@ -1,0 +1,117 @@
+/* Global styles for the home page */
+.home {
+  text-align: center; /* Center align content */
+  font-family: 'Poppins', sans-serif;
+  padding: 2rem;
+  background: #f4f7fa;
+  color: #333;
+}
+
+/* Container for option cards */
+.options {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Style for each option card */
+.option-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.option-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Button styling */
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #d63384, #e668a3);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #b52a6a, #c4588c);
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
+/* Info sections styling */
+.info-sections {
+  margin-top: 3rem;
+}
+
+.info-sections section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* QUERY FORM BOX */
+.query-form-container {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.query-form-container:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* FORM FIELDS */
+.query-form label {
+  font-weight: 600;
+  display: block;
+  margin: 10px 0 5px;
+  text-align: left;
+}
+
+.query-form input,
+.query-form textarea {
+  width: 100%; /* Increased width */
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.query-form input:focus,
+.query-form textarea:focus {
+  border-color: #d63384;
+  box-shadow: 0 0 10px rgba(214, 51, 132, 0.2);
+}
+
+/* QUERY FORM BUTTON */
+.query-form .btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}

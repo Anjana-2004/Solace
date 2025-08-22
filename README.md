@@ -42,7 +42,7 @@ The system also includes a **Tinkercad prototype**, demonstrating how hardware i
 ---
 
 ### 4. Dashboard (Data Visualization)
-![Dashboard Screenshot](Dashboard.png)
+
 - Visualizes user data for better insights and monitoring.
 - **Bar Graphs:** Display sleep duration over time, allowing users to track trends in their sleep habits.
 - **Line Graphs:** Show quiz results across multiple attempts, highlighting progress or changes in mental health assessments.

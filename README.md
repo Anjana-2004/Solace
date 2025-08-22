@@ -1,6 +1,6 @@
 # Mental Health Web Application
 
-![Homepage Banner](Home_Page.png)
+![Homepage Banner](homepage.png)
 
 ## Overview
 This is a **Mental Health Web Application** designed to assist users with emotional support, self-assessment, and lifestyle tracking. The app combines a **chatbot powered by Large Language Models (LLMs) via Ollama**, interactive quizzes, a sleep tracker, and a data visualization dashboard, all built with **HTML and CSS** for a user-friendly experience.
@@ -34,7 +34,7 @@ The system also includes a **Tinkercad prototype**, demonstrating how hardware i
 ---
 
 ### 3. Sleep Tracker
-![Sleep Tracker Screenshot](Sleep_Tracker.png)
+![Sleep Tracker Screenshot](SleepTracker.png)
 - Users can log **sleep and wake-up times** daily.
 - Data is **stored persistently** and can be exported as a **CSV file** for analysis.
 - Encourages better sleep habits by tracking patterns over time.
@@ -42,7 +42,7 @@ The system also includes a **Tinkercad prototype**, demonstrating how hardware i
 ---
 
 ### 4. Dashboard (Data Visualization)
-
+![Dashboard Screenshot](images/dashboard.png)
 - Visualizes user data for better insights and monitoring.
 - **Bar Graphs:** Display sleep duration over time, allowing users to track trends in their sleep habits.
 - **Line Graphs:** Show quiz results across multiple attempts, highlighting progress or changes in mental health assessments.
